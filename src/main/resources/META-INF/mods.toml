@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[45,)"
+license="All rights reserved"
+[[mods]]
+modId="xpmod"
+version="${file.jarVersion}"
+displayName="Xp Mod"
+logoFile="examplemod.png"
+credits="Aadvait Ranjan for coding, Arjit Bhartwaj for designing picture."
+authors="Aadvait Ranjan, Arjit Bharatwaj."
+description='''
+The mod which requires xp for hearts and effects
+'''
+[[dependencies.xpmod]]
+    modId="forge"
+    mandatory=true
+    versionRange="[45,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.xpmod]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.19.4,1.20)"
+    ordering="NONE"
+    side="BOTH"
